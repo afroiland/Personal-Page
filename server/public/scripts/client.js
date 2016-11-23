@@ -10,7 +10,7 @@ app.config(['$routeProvider', function($routeProvider) {
     .when('/dean' ,{
       templateUrl: '/views/templates/dean.html',
       controller: 'DeanController',
-      controllerAs: 'dean'
+      controllerAs: 'dean',
     })
     .when('/jess' ,{
       templateUrl: '/views/templates/jess.html',
@@ -31,7 +31,7 @@ app.config(['$routeProvider', function($routeProvider) {
 app.controller('HomeController', function() {
   console.log('home controller running');
   var self = this;
-  self.message = "Home controller is the best!";
+  self.message = "Navigate the gallery and reflect on Rory's romantic past.";
 
 });
 
