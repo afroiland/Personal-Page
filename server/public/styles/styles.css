@@ -73,9 +73,13 @@ h2 {
 }
 
 #engineer {
-  background-image: url("../../images/Handshake-City.jpg");
+  background: url("../../images/Handshake-City.jpg");
+  background-size: 100% 100%;
+  /*max-width: 100%;
+  max-height: 100%;*/
 }
 
 #dreaming {
-  background-image: url("../../images/fairytree.jpg");
+  background: url("../../images/fairytree.jpg");
+  background-size: 100% 100%;
 }
