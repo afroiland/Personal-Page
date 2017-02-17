@@ -7,20 +7,20 @@ app.config(['$routeProvider', function($routeProvider) {
       controller: 'HomeController',
       controllerAs: 'home'
     })
-    .when('/dean' ,{
-      templateUrl: '/views/templates/dean.html',
-      controller: 'DeanController',
-      controllerAs: 'dean',
+    .when('/crystals' ,{
+      templateUrl: '/views/templates/crystals.html',
+      controller: 'CrystalsController',
+      controllerAs: 'crystals',
     })
-    .when('/jess' ,{
-      templateUrl: '/views/templates/jess.html',
-      controller: 'JessController',
-      controllerAs: 'jess'
+    .when('/engineer' ,{
+      templateUrl: '/views/templates/engineer.html',
+      controller: 'EngineerController',
+      controllerAs: 'engineer'
     })
-    .when('/logan' ,{
-      templateUrl: '/views/templates/logan.html',
-      controller: 'LoganController',
-      controllerAs: 'logan'
+    .when('/dreaming' ,{
+      templateUrl: '/views/templates/dreaming.html',
+      controller: 'DreamingController',
+      controllerAs: 'dreaming'
     })
     .otherwise({
       redirectTo: 'home'
@@ -35,23 +35,23 @@ app.controller('HomeController', function() {
 
 });
 
-app.controller('DeanController', function() {
-  console.log('dean controller running');
+app.controller('CrystalsController', function() {
+  console.log('Crystals controller running');
   var self = this;
-  self.message = "Dean Forester";
+  self.message = "Crystals";
 
 });
 
-app.controller('JessController', function() {
-  console.log('jess controller running');
+app.controller('EngineerController', function() {
+  console.log('Engineer controller running');
   var self = this;
-  self.message = "Jess Mariano";
+  self.message = "Engineer";
 
 });
 
-app.controller('LoganController', function() {
-  console.log('logan controller running');
+app.controller('DreamingController', function() {
+  console.log('Dreaming controller running');
   var self = this;
-  self.message = "Logan Huntzberger";
+  self.message = "Dreaming";
 
 });
