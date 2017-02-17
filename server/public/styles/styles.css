@@ -12,7 +12,7 @@ body {
 }
 
 #footer {
-  margin-top: 300px;
+  margin-top: 10px;
 }
 
 .bioPic {
@@ -29,7 +29,7 @@ body {
 }
 
 h2 {
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 
 .backdrop {
@@ -60,7 +60,7 @@ h2 {
 }
 
 .box {
-  height: 400px;
+  height: 500px;
   margin: 4px;
   padding: 10px;
   flex: 1;
@@ -69,7 +69,8 @@ h2 {
 }
 
 #crystals {
-  background-image: url("../../images/healing-crystal.jpg");
+  background: url("../../images/healing-crystal.jpg");
+  background-size: 100% 100%;
 }
 
 #engineer {
@@ -82,4 +83,9 @@ h2 {
 #dreaming {
   background: url("../../images/fairytree.jpg");
   background-size: 100% 100%;
+}
+
+.jumbotron {
+  padding: 10px;
+  height: 55px;
 }
