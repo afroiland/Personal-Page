@@ -29,12 +29,20 @@ app.config(['$routeProvider', function($routeProvider) {
 }]);
 
 app.controller('HomeController', function() {
-  console.log('home controller running');
+  console.log('Home controller running');
   var self = this;
   self.message = "Home";
 
-  this.test = function() {
-    console.log('clicky');
+  this.goToCrystals = function() {
+    location.href = "#crystals";
+  }
+
+  this.goToEngineer = function() {
+    location.href = "#engineer";
+  }
+
+  this.goToDreaming = function() {
+    location.href = "#dreaming";
   }
 
 });
