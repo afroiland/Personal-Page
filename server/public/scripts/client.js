@@ -31,7 +31,11 @@ app.config(['$routeProvider', function($routeProvider) {
 app.controller('HomeController', function() {
   console.log('home controller running');
   var self = this;
-  self.message = "Navigate the gallery and reflect on Rory's romantic past.";
+  self.message = "Home";
+
+  this.test = function() {
+    console.log('clicky');
+  }
 
 });
 
