@@ -60,9 +60,22 @@ h2 {
 }
 
 .box {
+  height: 400px;
   margin: 4px;
   padding: 10px;
   flex: 1;
   border-style: solid;
   border-color: grey;
+}
+
+#crystals {
+  background-image: url("../../images/healing-crystal.jpg");
+}
+
+#engineer {
+  background-image: url("../../images/Handshake-City.jpg");
+}
+
+#dreaming {
+  background-image: url("../../images/fairytree.jpg");
 }
