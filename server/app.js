@@ -4,7 +4,7 @@ var path = require('path');
 
 
 // serve static files
-app.use(express.static(path.resolve('./server/public')));
+app.use(express.static(path.resolve('./public')));
 
 // server index file
 app.get('/home', function(req, res) {
@@ -12,7 +12,7 @@ app.get('/home', function(req, res) {
 });
 
 app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, './public/views/index.html'));
+  res.sendFile(path.join(__dirname, '../public/views/index.html'));
 });
 
 app.listen(3000, function() {
