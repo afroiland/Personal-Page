@@ -2,7 +2,7 @@ body {
   background-color: black;
   text-align: center;
   font-family: didot;
-  color: grey;
+  color: gainsboro;
   /*position: relative;*/
 }
 
@@ -68,7 +68,24 @@ h2 {
   padding: 10px;
   flex: 1;
   border-style: solid;
-  border-color: grey;
+  border-color: gainsboro;
+}
+
+.crystalsBox {
+  border-style: solid;
+  border-color: gainsboro;
+  width: 70%;
+  margin: auto;
+}
+
+.boxText {
+  margin: 20px;
+  text-align: center;
+}
+
+.wrapper {
+  display: inline;
+  text-align: center;
 }
 
 #crystals {
