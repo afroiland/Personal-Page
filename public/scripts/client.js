@@ -52,6 +52,10 @@ app.controller('CrystalsController', function() {
   var self = this;
   self.message = "Crystals";
 
+  this.goHome = function() {
+    location.href = "#home";
+  }
+
 });
 
 app.controller('EngineerController', function() {
@@ -59,11 +63,19 @@ app.controller('EngineerController', function() {
   var self = this;
   self.message = "Engineer";
 
+  this.goHome = function() {
+    location.href = "#home";
+  }
+
 });
 
 app.controller('DreamingController', function() {
   console.log('Dreaming controller running');
   var self = this;
   self.message = "Dreaming";
+
+  this.goHome = function() {
+    location.href = "#home";
+  }
 
 });
