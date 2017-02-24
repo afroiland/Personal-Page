@@ -32,7 +32,7 @@ body {
 }
 
 h2 {
-  /*margin-bottom: 30px;*/
+  font-size: 300%;
 }
 
 .backdrop {
@@ -107,5 +107,5 @@ h2 {
 
 .jumbotron {
   padding: 10px;
-  height: 55px;
+  height: 65px;
 }
