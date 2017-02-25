@@ -69,7 +69,7 @@ h2 {
   flex: 1;
   border-style: solid;
   border-color: gainsboro;
-  transition: background 0.5s linear 0s, color 0.5s linear 0s;
+  transition: background 0.5s linear 0s, color 0.5s linear 0s, opacity 0.5s linear 0s;
 }
 
 .box:hover {
