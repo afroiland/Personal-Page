@@ -63,6 +63,8 @@ h2 {
 }
 
 .box {
+  color: black;
+  opacity: .65;
   text-align: center;
   height: 500px;
   margin: 4px;
@@ -79,14 +81,21 @@ h2 {
 }
 
 .box:hover {
-  color: black;
-  opacity: .5;
+  color: none;
+  opacity: 1;
+  /*color: black;
+  opacity: .5;*/
 }
 
 .box:hover > h3 {
+  position: relative;
   color: gainsboro;
   display: block;
-  opacity: 1;
+}
+
+.boxTitle {
+  position: relative;
+  z-index: 1;
 }
 
 .subBox {
