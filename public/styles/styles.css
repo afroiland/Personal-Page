@@ -63,8 +63,8 @@ h2 {
 }
 
 .box {
-  color: black;
-  opacity: .65;
+  /*color: black;
+  opacity: .65;*/
   text-align: center;
   height: 500px;
   margin: 4px;
@@ -80,22 +80,22 @@ h2 {
   display: none;
 }
 
-.box:hover {
-  color: none;
-  opacity: 1;
-  /*color: black;
-  opacity: .5;*/
-}
+/*.box:hover :not(h3) {*/
+/*.box:hover {*/
+  /*color: none;*/
+  /*opacity: 1;*/
+  /*color: black;*/
+  /*opacity: .5;*/
+/*}*/
 
 .box:hover > h3 {
   position: relative;
-  color: gainsboro;
   display: block;
 }
 
 .boxTitle {
-  position: relative;
-  z-index: 1;
+  font-size: 220%;
+  color: white;
 }
 
 .subBox {
@@ -117,6 +117,12 @@ h2 {
 
 #crystals {
   background: url("../../images/healing-crystal.jpg");
+  background-size: 100% 100%;
+  transition: background 0.5s linear 0s;
+}
+
+#crystals:hover {
+  background: url("../../images/healing-crystal-blurry.jpg");
   background-size: 100% 100%;
 }
 
